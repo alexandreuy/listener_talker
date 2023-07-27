@@ -1,0 +1,4 @@
+<launch>
+  <node name="listener_controller" pkg="pubsub" type="listener_controller" output="screen"/>
+  <node name="talker_controller" pkg="pubsub" type="talker_controller" output="screen"/>
+</launch>
